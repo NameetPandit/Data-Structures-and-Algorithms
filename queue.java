@@ -71,7 +71,7 @@ public class Queue {
         } else {
             System.out.println("These are the elements of the queue");
             for (i = front; i <= rear; i++) {
-                System.out.print(" " + queue[i % capacity]);
+                System.out.println(" " + queue[i % capacity]);
             }
         }
     }
